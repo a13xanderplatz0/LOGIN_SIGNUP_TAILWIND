@@ -25263,13 +25263,13 @@ function Signup() {
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         onSubmit: handleSubmit,
-        className: "space-y-6",
+        className: "space-y-3",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "name",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-0.5",
                         children: "Nombre"
                     }, void 0, false, {
                         fileName: "src/pages/Signup.jsx",
@@ -25285,7 +25285,7 @@ function Signup() {
                             required: true,
                             value: formData.name,
                             onChange: handleChange,
-                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-0.5"
                         }, void 0, false, {
                             fileName: "src/pages/Signup.jsx",
                             lineNumber: 34,
@@ -25306,7 +25306,7 @@ function Signup() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "email",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-0.5",
                         children: "Email"
                     }, void 0, false, {
                         fileName: "src/pages/Signup.jsx",
@@ -25322,7 +25322,7 @@ function Signup() {
                             required: true,
                             value: formData.email,
                             onChange: handleChange,
-                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-0.5"
                         }, void 0, false, {
                             fileName: "src/pages/Signup.jsx",
                             lineNumber: 51,
@@ -25343,7 +25343,7 @@ function Signup() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "password",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-0.5",
                         children: "Contrase\xf1a"
                     }, void 0, false, {
                         fileName: "src/pages/Signup.jsx",
@@ -25360,7 +25360,7 @@ function Signup() {
                                 required: true,
                                 value: formData.password,
                                 onChange: handleChange,
-                                className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm pr-10"
+                                className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm pr-10 mt-1"
                             }, void 0, false, {
                                 fileName: "src/pages/Signup.jsx",
                                 lineNumber: 68,
@@ -25415,7 +25415,7 @@ function Signup() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "confirmPassword",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-1",
                         children: "Confirmar contrase\xf1a"
                     }, void 0, false, {
                         fileName: "src/pages/Signup.jsx",
@@ -27855,13 +27855,13 @@ function Login() {
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         onSubmit: handleSubmit,
-        className: "space-y-6",
+        className: "space-y-4",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "email",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-1",
                         children: "Email"
                     }, void 0, false, {
                         fileName: "src/pages/Login.jsx",
@@ -27878,7 +27878,7 @@ function Login() {
                             required: true,
                             value: email,
                             onChange: (e)=>setEmail(e.target.value),
-                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                            className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-1"
                         }, void 0, false, {
                             fileName: "src/pages/Login.jsx",
                             lineNumber: 23,
@@ -27899,7 +27899,7 @@ function Login() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                         htmlFor: "password",
-                        className: "block text-sm font-medium text-gray-700",
+                        className: "block text-sm font-medium text-gray-700 mb-1",
                         children: "Contrase\xf1a"
                     }, void 0, false, {
                         fileName: "src/pages/Login.jsx",
@@ -27917,7 +27917,7 @@ function Login() {
                                 required: true,
                                 value: password,
                                 onChange: (e)=>setPassword(e.target.value),
-                                className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm pr-10"
+                                className: "appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm pr-10 mt-1"
                             }, void 0, false, {
                                 fileName: "src/pages/Login.jsx",
                                 lineNumber: 41,
